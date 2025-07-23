@@ -107,5 +107,15 @@ Este script **sobrescreve o arquivo `/etc/netplan/01-netcfg.yaml`**, portanto **
 
 ---
 
+## Referências Técnicas
+
+Documentação oficial do Netplan
+Linux Bonding Documentation
+Ubuntu Server Guide - Network Configuration
+
 ## 
+
+
+
+
 Projeto de automação de configuração de rede — GigaNuvem
