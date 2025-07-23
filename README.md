@@ -109,9 +109,9 @@ Este script **sobrescreve o arquivo `/etc/netplan/01-netcfg.yaml`**, portanto **
 
 ## Referências Técnicas
 
-Documentação oficial do Netplan
-Linux Bonding Documentation
-Ubuntu Server Guide - Network Configuration
+>Documentação oficial do Netplan
+>Linux Bonding Documentation
+>Ubuntu Server Guide - Network Configuration
 
 ## 
 
