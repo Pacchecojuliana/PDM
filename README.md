@@ -57,7 +57,7 @@ sudo python3 script_bonding.py <bond_name1> <bond_name2> <interface1_1> <interfa
 
 ---
 
-##  O que o script faz
+##  Funcionalidade do Script
 
 1. Gera e escreve o arquivo `/etc/netplan/01-netcfg.yaml` com os parâmetros informados.
 2. Valida a configuração com `netplan try`.
@@ -79,6 +79,19 @@ sudo python3 script_bonding.py bond0 bond1 eno1 eno2 ens1 ens2 192.168.10.10/24 
 ##  Dicas
 
 - Use `ip a` antes de rodar o script para conferir os nomes corretos das interfaces.
+
+```bash
+# 1. Verifique as interfaces disponíveis
+ip link show
+
+# 2. Confirme que as interfaces não estão em uso
+ip addr show
+
+# 3. Verifique se o sistema suporta bonding
+modprobe bonding
+lsmod | grep bonding
+```
+
 - Após executar, verifique o status do bonding com:
 
 ```bash
